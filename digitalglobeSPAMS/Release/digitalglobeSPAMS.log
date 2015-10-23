@@ -1,0 +1,19 @@
+﻿Build started 10/5/2015 1:31:33 PM.
+     1>Project "E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\decomp /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\linalg /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\prox /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(246): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(240) : while compiling class template member function 'Trainer<double>::Trainer(void)'
+                 src\main.cpp(27) : see reference to function template instantiation 'Trainer<double>::Trainer(void)' being compiled
+                 src\main.cpp(27) : see reference to class template instantiation 'Trainer<double>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\Release\digitalglobeSPAMS.exe" /NOLOGO /LIBPATH:C:\Users\maschenb\Downloads\blasWin32 C:\Users\maschenb\Downloads\blasWin32\libblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\Release\digitalglobeSPAMS.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\Release\digitalglobeSPAMS.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         digitalglobeSPAMS.vcxproj -> E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\Release\digitalglobeSPAMS.exe
+     1>Done Building Project "E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.00

@@ -1,0 +1,164 @@
+﻿Build started 10/5/2015 11:57:47 AM.
+     1>Project "E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\decomp /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\linalg /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\prox /IE:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4996 /errorReport:prompt src\main.cpp
+         main.cpp
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(67): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(72): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\main.cpp(16): warning C4305: '=' : truncation from 'double' to 'float'
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(135): warning C4305: 'initializing' : truncation from 'double' to 'float'
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(93) : while compiling class template member function 'ParamDictLearn<float>::ParamDictLearn(void)'
+                 src\main.cpp(13) : see reference to function template instantiation 'ParamDictLearn<float>::ParamDictLearn(void)' being compiled
+                 src\main.cpp(13) : see reference to class template instantiation 'ParamDictLearn<float>' being compiled
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1157): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1155) : while compiling class template member function 'void Matrix<T>::getGroup(Matrix<T> &,const vector_groups &,const int) const'
+                 with
+                 [
+                     T=float
+                 ]
+                 src\main.cpp(20) : see reference to class template instantiation 'Matrix<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(246): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(240) : while compiling class template member function 'Trainer<float>::Trainer(void)'
+                 src\main.cpp(22) : see reference to function template instantiation 'Trainer<float>::Trainer(void)' being compiled
+                 src\main.cpp(22) : see reference to class template instantiation 'Trainer<float>' being compiled
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(531): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(346) : while compiling class template member function 'void Trainer<float>::train(const Data<T> &,const ParamDictLearn<T> &)'
+                 with
+                 [
+                     T=float
+                 ]
+                 src\main.cpp(23) : see reference to function template instantiation 'void Trainer<float>::train(const Data<T> &,const ParamDictLearn<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(576): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(690): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3161): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3159) : while compiling class template member function 'void Vector<float>::normalize2(void)'
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(631) : see reference to function template instantiation 'void Vector<float>::normalize2(void)' being compiled
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2726) : while compiling class template member function 'Vector<float>::~Vector(void)'
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2740) : see reference to class template instantiation 'Vector<float>' being compiled
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3556): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3548) : while compiling class template member function 'void Vector<float>::sparseProject(Vector<float> &,const T,const int,const T,const T,const T,const bool)'
+                 with
+                 [
+                     T=float
+                 ]
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(429) : see reference to function template instantiation 'void Vector<float>::sparseProject(Vector<float> &,const T,const int,const T,const T,const T,const bool)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3599): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1300): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1295) : while compiling class template member function 'void Matrix<T>::normalize(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\inc\dictLearn\dicts.h(433) : see reference to function template instantiation 'void Matrix<T>::normalize(void)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1075) : while compiling class template member function 'Matrix<T>::Matrix(T *,int,int)'
+                 with
+                 [
+                     T=float
+                 ]
+                 src\main.cpp(20) : see reference to function template instantiation 'Matrix<T>::Matrix(T *,int,int)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(4213): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(4211) : while compiling class template member function 'void SpMatrix<T>::getGroup(Matrix<T> &,const vector_groups &,const int) const'
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1859) : see reference to class template instantiation 'SpMatrix<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1856) : while compiling class template member function 'void Matrix<T>::mult(const SpMatrix<T> &,Matrix<T> &,const bool,const bool,const T,const T) const'
+                 with
+                 [
+                     T=float
+                 ]
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3155): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3153) : while compiling class template member function 'void Vector<float>::normalize(void)'
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1307) : see reference to function template instantiation 'void Vector<float>::normalize(void)' being compiled
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2703) : while compiling class template member function 'Vector<float>::Vector(int)'
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1865) : see reference to function template instantiation 'Vector<float>::Vector(int)' being compiled
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3659): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3632) : while compiling class template member function 'void Vector<float>::l1l2project(Vector<float> &,const T,const T,const bool) const'
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3556) : see reference to function template instantiation 'void Vector<float>::l1l2project(Vector<float> &,const T,const T,const bool) const' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3663): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3678): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2920) : see reference to function template instantiation 'T normalDistrib<T>(void)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2919) : while compiling class template member function 'void Vector<float>::setAleat(void)'
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(1306) : see reference to function template instantiation 'void Vector<float>::setAleat(void)' being compiled
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(80): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(121) : see reference to function template instantiation 'T ran1<T>(void)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(2920) : see reference to function template instantiation 'T normalDistrib<T>(void)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\misc.h(80): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\x64\Release\digitalglobeSPAMS.exe" /NOLOGO /LIBPATH:C:\Users\maschenb\Downloads\blasX64 C:\Users\maschenb\Downloads\blasX64\libblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\x64\Release\digitalglobeSPAMS.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\x64\Release\digitalglobeSPAMS.lib" /MACHINE:X64 x64\Release\main.obj
+         Generating code
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1780): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1800): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1801): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1804): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1804): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1808): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1808): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1814): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1841): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1845): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1849): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3820): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3826): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3835): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3840): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3841): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3845): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\linalg\linalg.h(3850): warning C4756: overflow in constant arithmetic
+     1>e:\gitclones\digitalglobespams\digitalglobespams\digitalglobespams\inc\decomp\decomp.h(1780): warning C4756: overflow in constant arithmetic
+         Finished generating code
+         digitalglobeSPAMS.vcxproj -> E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\x64\Release\digitalglobeSPAMS.exe
+     1>Done Building Project "E:\GitClones\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS\digitalglobeSPAMS.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.68
